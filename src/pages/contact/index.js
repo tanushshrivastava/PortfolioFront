@@ -11,7 +11,7 @@ export const ContactUs = () => {
     email: "",
     name: "",
     message: "",
-    loading: false,
+    loading: false, 
     show: false,
     alertmessage: "",
     variant: "",

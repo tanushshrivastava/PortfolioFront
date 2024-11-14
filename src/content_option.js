@@ -1,81 +1,69 @@
-const logotext = "JOHN";
+const logotext = "TANUSH";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Tanush Shrivastava",
+    description: "I’m Tanush Shrivastava, an avid software engineer attending the University of Wisconsin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Tanush Shrivastava",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Full-Stack Developer",
+        second: "Machine Learning Engineer",
+        third: "Mobile Application Developer",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I’m Tanush Shrivastava, a part-time software engineer at PNC Bank and senior at the University of Wisconsin",
+    your_img_url: "https://i.gifer.com/origin/3e/3e16cabc8c3ba9318711392bd1491dcf_w200.gif",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About Myself",
+    aboutme: "I am always striving to learn more and expand my knowledge. I have Interned at PNC Bank in the Summer of 2024 and continued part-time during my academic year. I created an internal automation tool usinf React.js, Python, and MongoDB. I have much expertise in artificial intelligece, databasing, and web development. I also hava a certification in Google Cloud's Machine Learning Pathway. ",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
 
 const skills = [{
         name: "Python",
-        value: 90,
+        value: 100
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "MongoDB",
+        value: 100
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 100
     },
     {
         name: "React",
-        value: 60,
+        value: 100
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Java",
+        value: 100
+    },
+    {
+        name: "C, C++, C#",
+        value: 100
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "AI/ML",
+        description: "I can teach you about AI/ML concepts and integrate them within your application.",
     },
     {
         title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "I can assist in developing your mobile application.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Fullstack Websites",
+        description: "I can assist in developing your own website or application.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://drive.google.com/drive/u/4/folders/1-QpUz4oBBG-vBc2Fl-3jEWFA_-XLgoVk",
+        description: "Self-Driving AI for Robotic Platforms",
+        link: "https://drive.google.com/file/d/1EHgfWtKZrFG_htFLqM9mfvrQfC6BhPhr/view",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
@@ -136,8 +124,8 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
+    YOUR_EMAIL: "tanushbusiness@gmail.com",
+    YOUR_FONE: "(412)-980-6188",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -147,16 +135,13 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/tanushshrivastava",
+    linkedin: "https://www.linkedin.com/in/tanush-shrivastava/",
 };
 export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
     skills,
     services,
     introdata,
