@@ -60,67 +60,38 @@ const services = [{
     },
 ];
 
+import Project1 from "./assets/images/Project1.png";
+import Project2 from "./assets/images/Project2.png";
+import Project3 from "./assets/images/Project3.png";
+import Project4 from "./assets/images/Project4.png";
+import Project5 from "./assets/images/Project5.png";
+
 const dataportfolio = [{
-        img: "https://drive.google.com/drive/u/4/folders/1-QpUz4oBBG-vBc2Fl-3jEWFA_-XLgoVk",
+        img: Project1,
         description: "Self-Driving AI for Robotic Platforms",
         link: "https://drive.google.com/file/d/1EHgfWtKZrFG_htFLqM9mfvrQfC6BhPhr/view",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: Project2,
+        description: "Study Focus Tracker Website",
+        link: "https://studysmartapp.netlify.app/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: Project3,
+        description: "Device to help avoid deer/car crashes",
+        link: "https://drive.google.com/file/d/1cZZBRv0JSBBN5xddsOltD2IRMOhR539z/view",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: Project4,
+        description: "Device to prevent foot-drop in MS patients",
+        link: "https://drive.google.com/file/d/1nVCRlrHNeqkY9-ngTpobZdb37HY3PIxl/view",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: Project5,
+        description: "Website that explains medical bills to patients",
+        link: "https://devfolio.co/projects/medicost-69f9",
     },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    
 ];
 
 const contactConfig = {
