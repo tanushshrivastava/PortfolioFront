@@ -1,3 +1,6 @@
+p{
+    padding: .25rem
+}
 section {
     flex: 1 0 auto;
     position: relative;
@@ -92,9 +95,11 @@ section {
 }
 
 .intro_sec .h_bg-image {
-    background-size: cover;
+    background-size: contain;      /* Change 'cover' to 'contain' */
     background-position: center;
-    min-height: 700px;
+    background-repeat: no-repeat;  /* Add this line to prevent the image from repeating */
+    min-height: 300px;             /* Adjust or remove this value if needed */
+    max-height: 500px;
     position: relative;
 }
 

@@ -1,3 +1,5 @@
+import photo from "./assets/images/your-photo.png"
+
 const logotext = "TANUSH";
 const meta = {
     title: "Tanush Shrivastava",
@@ -7,12 +9,12 @@ const meta = {
 const introdata = {
     title: "I’m Tanush Shrivastava",
     animated: {
-        first: "Full-Stack Developer",
-        second: "Machine Learning Engineer",
-        third: "Mobile Application Developer",
+        first: "Part-time SWE @ PNC Bank",
+        second: "Junior at UW-Madison",
     },
-    description: "I’m Tanush Shrivastava, a part-time software engineer at PNC Bank and senior at the University of Wisconsin",
-    your_img_url: "https://i.gifer.com/origin/3e/3e16cabc8c3ba9318711392bd1491dcf_w200.gif",
+    description: "I am a highly motivated individual who is always striving to expand my knowledge and skillset. During the Summer of 2024, I had the opportunity to intern at PNC Bank, where I gained hands-on experience and continued contributing part-time during the academic year. In this role, I developed an internal automation tool utilizing React.js, Python, and MongoDB, showcasing my technical proficiency and ability to create impactful solutions.",
+    descriptionTwo: "My expertise spans across artificial intelligence, database management, and web development. Additionally, I hold a certification in Google Cloud's Machine Learning Pathway, further demonstrating my commitment to staying at the forefront of technological advancements.",
+    your_img_url: photo,
 };
 
 const dataabout = {
