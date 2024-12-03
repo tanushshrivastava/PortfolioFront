@@ -98,7 +98,7 @@ const dataportfolio = [{
     },
     {
         img: Project6,
-        description: "Website that meels plans based on nutrition needs",
+        description: "Website that meal plans based on nutrition needs",
         link: "https://mhacks2024.netlify.app",
     },
     
