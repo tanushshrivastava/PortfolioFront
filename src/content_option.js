@@ -14,6 +14,7 @@ const introdata = {
     },
     description: "I am a highly motivated individual who is always striving to expand my knowledge and skillset. During the Summer of 2024, I had the opportunity to intern at PNC Bank, where I gained hands-on experience and continued contributing part-time during the academic year. In this role, I developed an internal automation tool utilizing React.js, Python, and MongoDB, showcasing my technical proficiency and ability to create impactful solutions.",
     descriptionTwo: "My expertise spans across artificial intelligence, database management, and web development. Additionally, I hold a certification in Google Cloud's Machine Learning Pathway, further demonstrating my commitment to staying at the forefront of technological advancements.",
+    descriptionThree: "In my free time, I like to 3D Print, using Fusion 360 as my CAD software. I also enjoy watching and playing football",
     your_img_url: photo,
 };
 
@@ -67,6 +68,8 @@ import Project2 from "./assets/images/Project2.png";
 import Project3 from "./assets/images/Project3.png";
 import Project4 from "./assets/images/Project4.png";
 import Project5 from "./assets/images/Project5.png";
+import Project6 from "./assets/images/Project6.png";
+
 
 const dataportfolio = [{
         img: Project1,
@@ -93,15 +96,18 @@ const dataportfolio = [{
         description: "Website that explains medical bills to patients",
         link: "https://devfolio.co/projects/medicost-69f9",
     },
+    {
+        img: Project6,
+        description: "Website that meels plans based on nutrition needs",
+        link: "https://mhacks2024.netlify.app",
+    },
     
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "tanushsbuisness@gmail.com",
-    YOUR_FONE: "(412)-980-6188",
+    Email: "tanushsbuisness@gmail.com",
+    Phone: "(412)-980-6188",
     description: "Contact me for more information about myself or my projects!",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_k0x1m0o",
     YOUR_TEMPLATE_ID: "template_sx5oq5m",
     YOUR_USER_ID: "w0ke1089ufaNVEE5L",

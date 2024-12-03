@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { About } from "../about";
 import { Portfolio } from "../portfolio";
 import { ContactUs } from "../contact";
+import { Fusion } from "../fusion";
 export const Home = () => {
   return (
     <HelmetProvider>
@@ -42,6 +43,7 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <p className="mb-1x">{introdata.descriptionTwo}</p>
+                <p className="mb-1x">{introdata.descriptionThree}</p>
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
@@ -67,6 +69,7 @@ export const Home = () => {
       </section>
       <About/>
       <Portfolio/>
+      <Fusion/>
       <ContactUs/>
     </HelmetProvider>
   );

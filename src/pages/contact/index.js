@@ -24,7 +24,7 @@ export const ContactUs = () => {
     const templateParams = {
       from_name: formData.email,
       user_name: formData.name,
-      to_name: contactConfig.YOUR_EMAIL,
+      to_name: contactConfig.Email,
       message: formData.message,
     };
 
@@ -92,23 +92,33 @@ export const ContactUs = () => {
             </Alert>
           </Col>
           <Col lg="5" className="mb-5">
-            <h3 className="color_sec py-4">Get in touch</h3>
             <address>
-              <strong>Email:</strong>{" "}
-              <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
-                {contactConfig.YOUR_EMAIL}
-              </a>
-              <br />
-              <br />
-              {contactConfig.hasOwnProperty("YOUR_FONE") ? (
-                <p>
-                  <strong>Phone:</strong> {contactConfig.YOUR_FONE}
-                </p>
-              ) : (
-                ""
-              )}
-            </address>
-            <p>{contactConfig.description}</p>
+  <strong>Email:</strong>{" "}
+  <a href={`mailto:${contactConfig.Email}`}>
+    {contactConfig.Email}
+  </a>
+  <br />
+  <br />
+  {contactConfig.hasOwnProperty("Phone") ? (
+    <p>
+      <strong>Phone:</strong> {contactConfig.Phone}
+    </p>
+  ) : null}
+</address>
+<p>
+  <strong>GitHub:</strong>{" "}
+  <a href="http://github.com/tanushshrivastava" target="_blank" rel="noopener noreferrer">
+   github.com/tanushshrivastava
+  </a>
+</p>
+<p>
+  <strong>LinkedIn:</strong>{" "}
+  <a href="https://www.linkedin.com/in/tanush-shrivastava/" target="_blank" rel="noopener noreferrer">
+  linkedin.com/in/tanush-shrivastava/
+  </a>
+</p>
+<p>{contactConfig.description}</p>
+            
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
