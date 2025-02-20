@@ -9,10 +9,10 @@ const meta = {
 const introdata = {
     title: "I’m Tanush Shrivastava",
     animated: {
-        first: "Part-time SWE @ PNC Bank",
+        first: "SDE Intern @ Amazon",
         second: "Junior at UW-Madison",
     },
-    description: "I am a highly motivated individual who is always striving to expand my knowledge and skillset. During the Summer of 2024, I had the opportunity to intern at PNC Bank, where I gained hands-on experience and continued contributing part-time during the academic year. In this role, I developed an internal automation tool utilizing React.js, Python, and MongoDB, showcasing my technical proficiency and ability to create impactful solutions.",
+    description: "I am a highly motivated individual who is always striving to expand my knowledge and skillset. I am an incoming SDE Intern at Amazon on the Supply Chain Forecasting team. During the Summer of 2024, I had the opportunity to intern at PNC Bank, where I gained hands-on experience and also continued contributing part-time during the academic year. In this role, I developed an internal automation tool utilizing React.js, Python, and MongoDB, showcasing my technical proficiency and ability to create impactful solutions.",
     descriptionTwo: "My expertise spans across artificial intelligence, database management, and web development. Additionally, I hold a certification in Google Cloud's Machine Learning Pathway, further demonstrating my commitment to staying at the forefront of technological advancements.",
     descriptionThree: "In my free time, I like to 3D Print, using Fusion 360 as my CAD software. I also enjoy watching and playing football",
     your_img_url: photo,
@@ -32,7 +32,7 @@ const skills = [{
         value: 100
     },
     {
-        name: "Javascript",
+        name: "JavaScript",
         value: 100
     },
     {
@@ -46,20 +46,6 @@ const skills = [{
     {
         name: "C, C++, C#",
         value: 100
-    },
-];
-
-const services = [{
-        title: "AI/ML",
-        description: "I can teach you about AI/ML concepts and integrate them within your application.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "I can assist in developing your mobile application.",
-    },
-    {
-        title: "Fullstack Websites",
-        description: "I can assist in developing your own website or application.",
     },
 ];
 
@@ -105,7 +91,7 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    Email: "tanushsbuisness@gmail.com",
+    Email: "tanushsbusiness@gmail.com",
     Phone: "(412)-980-6188",
     description: "Contact me for more information about myself or my projects!",
     YOUR_SERVICE_ID: "service_k0x1m0o",
@@ -122,7 +108,6 @@ export {
     dataabout,
     dataportfolio,
     skills,
-    services,
     introdata,
     contactConfig,
     socialprofils,
